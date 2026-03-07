@@ -1,0 +1,150 @@
+/* 1. RESET & BACKGROUND HALAMAN */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaeff4;
+    padding: 20px;
+    margin: 0;
+}
+
+/* 2. WADAH KARTU UTAMA */
+.kartu-bio {
+    background-color: #ffffff;
+    max-width: 450px;
+    margin: 40px auto;
+    /* Menengahkan kotak ke tengah layar */
+    padding: 40px 25px;
+    /* Memberi ruang napas lebih lega di dalam kotak */
+    border-radius: 15px;
+    text-align: center;
+    /* Menengahkan semua elemen di dalamnya */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    border-top: 8px solid #1877f2;
+    /* Garis aksen biru di atas */
+}
+
+/* 3. FOTO PROFIL */
+.foto-profil {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #d3dce9;
+    margin-bottom: 10px;
+}
+
+/* 4. TIPOGRAFI DASAR (Nama & NIM) */
+h2 {
+    margin: 5px 0 2px 0;
+    color: #2c3e50;
+    font-size: 22px;
+}
+
+.nim {
+    color: #888888;
+    font-size: 14px;
+    margin: 12px 0;
+    /* margin-top: 0; */
+}
+
+/* 5. BADGE KELOMPOK */
+.badge-kelompok {
+    display: inline-block;
+    background-color: #d9e4f7;
+    color: #1877f2;
+    padding: 5px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* 6. DESKRIPSI SINGKAT (Bio terintegrasi, bukan kotak lagi) */
+.bio-singkat {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.6;
+    /* Jarak antar baris agar nyaman dibaca */
+    font-style: italic;
+    /* Teks miring agar menyerupai kutipan */
+    margin: 20px 10px 30px 10px;
+    /* Jarak atas 20, bawah 30 untuk memisah blok */
+}
+
+/* 7. BAGIAN APLIKASI (Judul & List) */
+.judul-kecil {
+    font-size: 13px;
+    color: #555555;
+    margin-bottom: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.list-aplikasi {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 30px 0;
+    /* Jarak bawah 30px sebelum tombol sosmed */
+}
+
+.list-aplikasi li {
+    display: inline-block;
+    /* Membuat list menyamping rata tengah */
+    background-color: #ecf1f7;
+    color: #444444;
+    padding: 8px 18px;
+    border-radius: 20px;
+    /* Sudut membulat seperti kapsul */
+    font-size: 12px;
+    margin: 6px 3px;
+    border: 1px solid #e1e4e8;
+    /* Garis tepi super tipis */
+}
+
+/* 8. TOMBOL SOSIAL MEDIA */
+.area-tombol {
+    margin-top: 10px;
+}
+
+.tombol {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px;
+    transition:
+        opacity 0.3s,
+        background-color 0.3s;
+}
+
+/* Menyesuaikan warna dengan gambar referensi Anda */
+.btn-mail {
+    background-color: #EA4335;
+}
+
+.btn-wa {
+    background-color: #25D366;
+}
+
+.btn-ig {
+    background-color: #E1306C;
+}
+
+.btn-x {
+    background-color: #1DA1F2;
+}
+
+.btn-fb {
+    background-color: #3b5998;
+}
+
+.btn-tele {
+    background-color: #0088CC;
+}
+
+.tombol:hover {
+    opacity: 0.8;
+    background-color: #47cb5b;
+}
