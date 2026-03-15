@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(215, 230, 250);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.kertas {
+    background-color: rgb(13, 5, 47);
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0,1);
+    padding: 30px;
+    margin: 0 auto;
+}
+
+img {
+    width: 50%;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: rgb(197, 189, 248);
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    text-align: center;
+    color: #888888;
+    margin-top: 0;
+}
+
+h2 {
+    color: rgb(224, 206, 113);
+    border-bottom: 2px solid #eeeeee;
+}
+
+ul {
+    color: rgb(212, 202, 151);
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px dashed #cccccc;
+    padding: 10px 0;
+    text-align: justify;
+}
+
+.sosmed {
+    text-align: center;
+    padding-top: 20px;
+}
+
+i{
+    color: rgb(197, 189, 248);
+}
+
+p{
+    color: rgb(197, 189, 248);
+}
+
+a{
+    text-decoration: none;
+    background-color: brown;
+    display: inline-block;
+    color: white;
+    padding: 10px 10px;
+    margin: 0 7px;
+    border-radius: 8px;
+}
