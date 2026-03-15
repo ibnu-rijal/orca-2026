@@ -1,0 +1,187 @@
+*,html {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.full {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0%;
+    text-align: center;
+    box-shadow: 0 20px 40x rgba(0, 0, 0, 0.4);
+    background-size:400% 400%;
+    animation:bgMove 12s ease infinite;
+}
+
+@keyframes bgMove{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+
+.full .dalam{
+    position: absolute;
+    height: 250px;
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20vh;
+    border-radius: 30px;
+    box-shadow: 40px 50px 60px rgba(0,0,0,0.5);
+    transform:scale(1.1);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    transition: 0.4s;
+    animation:fadeUp 1s ease;
+}
+
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(40px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+.full .dalam .kiri{
+    float: left;
+    background-color: #f1b6b6;
+    height: 100%;
+    width: 40%;
+    flex: 1; 
+}
+
+.full .dalam .kiri img{
+    position: relative;
+    height: 90pt;
+    width: 90pt;
+    border-radius: 70%;
+    margin-top: 10pt;
+    transition: 0.3s;
+    cursor: pointer;
+    border:5px solid rgba(255,255,255,0.5);
+    transition: 0.3s;
+}
+
+.full .dalam .kiri img:hover {
+    transform:scale(1.1);
+    box-shadow:0 0 20px rgba(255,255,255,0.6);
+}
+
+.full .dalam .kiri h1{
+    font-family: 'Times New Roman';
+    margin-top: 5pt;
+    font-size: 12pt;
+    margin-bottom: 5pt;
+}
+.full .dalam .kiri p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10pt;
+}
+
+.full .dalam .kiri a{
+    position: relative;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    padding: 15pt;
+    border-radius: 60%;
+    color: rgb(8, 7, 7);
+    font-family: 'Times New Roman', Times, serif;
+}
+.full .dalam .kanan h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 8pt;
+    margin-left: 20pt;
+    margin-top: 15pt;
+    letter-spacing: 0,5px;
+}
+
+.full .dalam .kanan hr{
+    margin: 20px;
+}
+
+
+.full .dalam .kanan h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 12pt;
+    margin-left: 20pt;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    text-align: justify; 
+    margin-right: 20pt;
+    justify-content: center;
+    line-height: 1.6;
+    max-width: 500px;
+    display:flex;
+    flex-wrap:wrap;
+    color: #ce7b7b;
+}
+
+.full .dalam .kanan h3{
+    margin-bottom: 5px;
+    justify-content: center;
+    display:flex;
+    flex-wrap:wrap;
+    color: #ce7b7b;
+    font-size: 12pt;
+}
+
+.skill-list{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:8px;
+}
+
+.skill-list span{
+    background:rgb(216, 216, 216);
+    padding:6px 12px;
+    border-radius:15px;
+    font-size:13px;
+    transition: 0.3s;
+}
+
+.skill-list span:hover{
+    background:#fbc6c6;
+    transform:scale(1.1);
+}
+
+.social{
+    margin-top: 8px;
+    display:flex;
+    justify-content:center;
+    gap: 10px;
+}
+
+.social a{
+    width: 40px;
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    background:rgba(248, 196, 196, 0.833);
+    color: #0b0b0b;
+    transition:0.3s;
+    text-decoration: none;
+}
+
+.social a:hover{
+    background:#fbc6c6;
+    transform:scale(1.1);
+    box-shadow:0 0 5px #f5f5f5,0 0 10px#f4cece;
+}

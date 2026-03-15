@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kartu Nama Digital Reva</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+body{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+font-family:Poppins, sans-serif;
+background-image:url("pemandangan2.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+/* CARD */
+.card{
+display:flex;
+width:650px;
+border-radius:16px;
+overflow:hidden;
+box-shadow:0 0px 50px rgba(0,0,0,0.5);
+position:relative;
+animation: floatCard 4s ease-in-out infinite;
+}
+
+/* kiri */
+.left{
+width:240px;
+background:rgba(255,255,255,0.25);
+backdrop-filter:blur(7px);
+-webkit-backdrop-filter:blur(7px);
+color:#333;
+text-align:center;
+padding:25px;
+}
+
+/* foto */
+.profile{
+width:95px;
+height:95px;
+object-fit:cover;
+border-radius:50%;
+border:4px solid white;
+margin-bottom:12px;
+cursor:pointer;
+transition:0.4s;
+}
+
+/* hover foto */
+.profile:hover{
+border:4px solid transparent;
+background:
+linear-gradient(#fff,#fff) padding-box,
+linear-gradient(45deg,#99B7D5,#ff8fab,#D1B4C6) border-box;
+}
+
+/* nama */
+.name{
+display:inline-block;
+padding:8px 22px;
+border-radius:25px;
+background:#e5e7eb;
+color:#374151;
+font-weight:600;
+font-size:18px;
+margin-bottom:8px;
+transition:0.4s;
+}
+
+.name:hover{
+background:linear-gradient(45deg,#99B7D5,#ff8fab,#D1B4C6);
+color:white;
+transform:scale(1.05);
+}
+
+.left p{
+margin:4px 0;
+font-size:14px;
+color:black;
+}
+
+/* kanan */
+.right{
+flex:1;
+width:65%;
+background:white;
+padding:18px 22px;
+}
+
+/* subjudul */
+.right h3{
+margin:0 0 4px 0;
+font-size:16px;
+border-bottom:1px solid #ccc;
+padding-bottom:2px;
+}
+
+/* paragraf */
+.right p{
+margin-top:3px;
+line-height:1.6;
+text-align:justify;
+font-size:14px;
+}
+
+/* icon */
+.icons{
+margin-top:0px;
+line-height:0.5;
+font-size:13px;
+}
+
+.icons i{
+font-size:15px;
+margin-right:4px;
+transition:0.3s;
+cursor:pointer;
+}
+
+.icons i:hover{
+transform:scale(1.25);
+color:#6366f1;
+}
+
+/* animasi kartu */
+@keyframes floatCard{
+0%{transform:translateY(0px);}
+50%{transform:translateY(-6px);}
+100%{transform:translateY(0px);}
+}
+
+/* ================= POPUP ================= */
+
+.welcome-popup{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.5);
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:999;
+}
+
+.popup-box{
+background:white;
+padding:25px 35px;
+border-radius:12px;
+text-align:center;
+box-shadow:0 10px 30px rgba(0,0,0,0.3);
+animation: popupAnim 0.6s ease;
+}
+
+.popup-box h2{
+margin-bottom:10px;
+}
+
+.popup-box button{
+margin-top:15px;
+padding:8px 18px;
+border:none;
+border-radius:8px;
+background:#6366f1;
+color:white;
+cursor:pointer;
+}
+
+.popup-box button:hover{
+background:#4f46e5;
+}
+
+@keyframes popupAnim{
+from{
+transform:scale(0.7);
+opacity:0;
+}
+to{
+transform:scale(1);
+opacity:1;
+}
+}
+
+.contact{
+display:flex;
+align-items:center;
+gap:8px;
+margin-top:6px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- POPUP -->
+<div class="welcome-popup" id="welcomePopup">
+  <div class="popup-box">
+    <h2>Selamat Datang</h2>
+    <p>Selamat datang di kartu nama digital Reva 💗💐</p>
+    <button onclick="closePopup()">Buka</button>
+  </div>
+</div>
+
+<!-- CARD -->
+<div class="card">
+
+<div class="left">
+
+<img src="fotoreva.jpeg"class="profile">
+
+<div class="name">Reva Liyanasari</div>
+
+<p>2225250101</p>
+<p>Kelompok 5</p>
+<p>Mahasiswa 2025</p>
+<p>Pendidikan Matematika</p>
+
+</div>
+
+<div class="right">
+
+<h3>Deskripsi Diri</h3>
+
+<p>
+Saya adalah mahasiswa yang memiliki minat dalam bidang pembelajaran dan
+pengembangan diri. Saya terbiasa bekerja dengan teliti, disiplin, serta
+memiliki semangat untuk terus belajar dan membantu orang lain dalam
+memahami materi dengan lebih baik.
+</p>
+
+<h3>Aplikasi yang Dikuasai</h3>
+
+<p>Canva, PowerPoint dan Microsoft Word.</p>
+
+<div class="icons">
+
+<div class="contact">
+<i class="fa-brands fa-whatsapp"></i>
+<span>085776779473</span>
+</div>
+
+<div class="contact">
+<i class="fa-brands fa-instagram"></i>
+<span>@revaliyanasari</span>
+</div>
+
+<script>
+function closePopup(){
+document.getElementById("welcomePopup").style.display="none";
+}
+</script>
+
+</body>
+</html>

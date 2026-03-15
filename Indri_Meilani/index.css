@@ -1,0 +1,77 @@
+*, html{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.full{
+    justify-content: center;
+    text-align: center;
+}
+.full img{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+.full .dalam{
+    position: absolute;
+    height: 80vh;
+    width: 80%;
+    background-color: lightblue;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10vh;
+}
+.full .dalam .kiri{
+    float: left;
+    background-color: rgb(129, 204, 230);
+    height: 100%;
+    width: 50%;
+}
+.full .dalam .kiri img{
+    position: relative;
+    height: 200pt;
+    width: 200pt;
+    border-radius: 70%;
+    margin-top: 30pt;
+}
+.full .dalam .kiri h1{
+    margin-top: 10pt;
+    font-size: 24pt;
+    margin-bottom: 10pt;
+}
+.full .dalam .kiri h2{
+    margin-top: 10pt;
+    font-size: 18pt;
+    margin-bottom: 10pt;
+    font-weight: normal;
+}
+.full .dalam .kanan h1{
+    text-align: left;
+    font-size: 12pt;
+    margin-left: 20pt;
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+    font-weight: normal;
+}
+.full .dalam .kanan h2{
+    font-size: 12pt;
+    text-align: left;
+    margin-left: 20pt;
+    margin-top: 20pt;
+    font-weight: normal;
+}
+.full .dalam .kanan .sosial{;
+    margin-left: 10pt;
+    margin-top: 20pt;
+}
+.full .dalam .kanan .sosial img{
+    height: 40pt;
+    width: auto;
+    position: relative;
+    margin-left: 10pt;
+}
