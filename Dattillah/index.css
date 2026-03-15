@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+body{
+    background-image: url("Background.webp");
+    background-size: cover;
+    background-position: center;
+}
+.full{
+    justify-content: center;
+    text-align: center;
+}
+.full img{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+.full .dalam{
+    position: relative;
+    height: 80vh;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10vh auto;
+}
+.full .dalam .kiri{
+    float: left;
+    background-color: #cecece;
+    height: 100%;
+    width: 50%;
+}
+.full .dalam .kiri img{
+    position: relative;
+    height: 100pt;
+    width: 100pt;
+    border-radius: 60%;
+    margin-top: 33pt;
+    margin-bottom: 15pt;
+}
+.full .dalam .kiri h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10pt;
+    font-size: 14pt;
+}
+.full .dalam .kiri h2{
+    margin-top: 2pt;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding: auto;
+}
+
+.full .dalam .kiri a{
+    position: relative;
+    text-decoration: none;
+    background-color: #d0b8a8;
+    padding: 15pt;
+    border-radius: 45%;
+    color: rgb(14, 13, 13);
+}
+
+.full .dalam .kiri p{
+    padding: 4%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+}
+.full .dalam .kanan{
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 45pt;
+    margin-bottom: 15pt;
+    font-size: 9px;
+}
+
+.kanan h1{
+    margin-bottom: 20px;
+}
+
+/* icon aplikasi */
+.apps{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 15px;
+    margin-top: 30pt;
+    margin-right: 20pt;
+}
+
+.apps img{
+    width: 50px;
+    height: 50px;
+}
+
+/* teks aplikasi */
+.app-text{
+    font-size: 14px;
+    margin-bottom: 30px;
+    margin-top: 60pt;
+    margin-left: 10pt;
+}
+/* social media */
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.kanan .social img{
+    width: 45px;
+    height: 45px;
+    margin-top: 20pt;
+    margin-right: 30pt;
+}
+.kanan h3{
+    font-size: 18px;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 130pt;
+}
+.social{
+    display: flex;
+    justify-content: flex-start;
+    gap: 60pt;
+    margin-left: 120pt;
+}
+.kanan .social img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
