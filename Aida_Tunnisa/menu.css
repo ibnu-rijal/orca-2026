@@ -1,0 +1,75 @@
+.body {
+    background-color: rgb(80, 124, 163);
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+.kertas {
+    background-color: rgb(213, 213, 223);
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px; 
+    padding: 30px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.gambar {
+    
+    width: 100%;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+}
+
+.tagline {
+    text-align: center;
+    color: rgb(117, 122, 140);
+    margin-top: 0;
+}
+
+
+h2 {
+    color: rgb(10, 10, 10);
+    border-bottom: 1px solid rgb(229, 233, 235);
+    margin-top: 0 ;
+    font-size: medium;
+    font-weight: normal;
+    padding: 0px;
+}
+
+h3 {
+    color: rgb(87, 87, 131);
+    border-bottom: 2px rgb(156, 154, 180) ;
+    font-size: medium;
+    font-weight: normal;
+    border-bottom:solid rgb(229, 233, 235) ;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.sosmed {
+    text-align: center;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(147, 147, 234);
+    display: inline-block;
+    color: rgb(12, 25, 107);
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 6px;
+}

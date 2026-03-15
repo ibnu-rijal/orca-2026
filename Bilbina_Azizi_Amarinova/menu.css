@@ -1,0 +1,85 @@
+.body {
+    background-color: rgb(177, 88, 37);
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+.kertas {
+    background-color: lightyellow;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px; 
+    padding: 30px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.gambar {
+    
+    width: 100%;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+}
+
+.tagline {
+    text-align: center;
+    color: rgb(174, 150, 121);
+    margin-top: 0;
+}
+
+
+h2 {
+    color: rgb(10, 10, 10);
+    border-bottom: 1px solid gold;
+    margin-top: 0 ;
+    font-size: medium;
+    font-weight: normal;
+    padding: 0px;
+}
+
+h3 {
+    color: rgb(10, 10, 10);
+    border-bottom: 1px solid gold;
+    margin-top: 0 ;
+    font-size: medium;
+    font-weight: normal;
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px 0;
+}
+}
+    
+h4{
+    color: rgb(10, 10, 10);
+    border-bottom: 1px solid gold;
+    margin-top: 0 ;
+    font-size: medium;
+    font-weight: normal;
+
+}
+
+.sosmed {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.a {
+    text-align: center;
+    text-decoration: none;
+    background-color: azure;
+    color: rgb(172, 232, 232);
+    padding: 10px 20px;
+    margin: 45px;
+    border-radius: 6px;
+
+}
